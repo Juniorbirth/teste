@@ -36,9 +36,10 @@ font-family: Tahoma, sans-serif;
   font-family: courier ;
   font-size: 18px;
   color: #671081;
-  border:  0.1px solid black;
+  border:  0px solid black;
+  border-bottom-width: 0px;
   background: rgba(255, 255, 255, 0.3);
-  width: 95%;
+  width: 93%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 10px;
@@ -47,8 +48,22 @@ font-family: Tahoma, sans-serif;
   padding-right: 20px;
 }
 
-
 .paragrafo-2{ 
+  font-family: courier;
+  font-size: 18px;
+  color: #671081;
+  border: px solid black;
+  background: rgba(255, 255, 255, 0.3);
+  width: 95.1%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  padding-top:10px;
+  padding-left: 25px;
+  padding-right: 20px;
+}
+
+.paragrafo-3{ 
   font-family: Helvetica;
   font-size: 16px;
   color: #671081;
@@ -67,13 +82,25 @@ font-family: Tahoma, sans-serif;
   position: relative;
 }
 
+.borda {
+  border:  0.px solid black;
+  background: rgba(255, 255, 255, 0.3);
+  margin-left: 25px;
+  margin-right: auto;
+  height: 0px; /* altura da div */
+  width: 1273px; /* largura da div */
+  
+}
+
+
 .imagem {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 5px;
-  width: 500px;
-  height: 400px;
+  margin: 23px;
+  width: 559px;
+  height: 431px;
+  margin-top: 0px 
 }
 
 p {
@@ -89,6 +116,8 @@ p {
 
 .column-left {
 
-  width: 50%;
+  width: 70%;
   float: left;
 }
+
+
